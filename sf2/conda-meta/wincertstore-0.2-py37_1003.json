@@ -1,0 +1,62 @@
+{
+  "build": "py37_1003",
+  "build_number": 1003,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [
+    "python_abi * *_cp37m"
+  ],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Ryan\\Anaconda3\\pkgs\\wincertstore-0.2-py37_1003",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/wincertstore.cpython-37.pyc",
+    "Lib/site-packages/wincertstore-0.2-py3.7.egg-info",
+    "Lib/site-packages/wincertstore.py",
+    ".nonadmin"
+  ],
+  "fn": "wincertstore-0.2-py37_1003.tar.bz2",
+  "license": "PSF 2",
+  "link": {
+    "source": "C:\\Users\\Ryan\\Anaconda3\\pkgs\\wincertstore-0.2-py37_1003",
+    "type": 1
+  },
+  "md5": "c59b6ebdefb65b5aef30f7943b5375e0",
+  "name": "wincertstore",
+  "package_tarball_full_path": "C:\\Users\\Ryan\\Anaconda3\\pkgs\\wincertstore-0.2-py37_1003.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/wincertstore.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "79874652eb01b16feb661c394a8b7f44d9e1add6c3f586af92e9cf66fe99ee4b",
+        "sha256_in_prefix": "79874652eb01b16feb661c394a8b7f44d9e1add6c3f586af92e9cf66fe99ee4b",
+        "size_in_bytes": 11004
+      },
+      {
+        "_path": "Lib/site-packages/wincertstore-0.2-py3.7.egg-info",
+        "path_type": "hardlink",
+        "sha256": "be59641c20270fd1bd0dd362080d9f1c33586f91971f9cc5630f0b338f119184",
+        "sha256_in_prefix": "be59641c20270fd1bd0dd362080d9f1c33586f91971f9cc5630f0b338f119184",
+        "size_in_bytes": 5788
+      },
+      {
+        "_path": "Lib/site-packages/wincertstore.py",
+        "path_type": "hardlink",
+        "sha256": "9eb1879f68dcdd125eb0ed737ed331f16e335a6a5208ec9f26fd3dd6220cfd08",
+        "sha256_in_prefix": "9eb1879f68dcdd125eb0ed737ed331f16e335a6a5208ec9f26fd3dd6220cfd08",
+        "size_in_bytes": 11873
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fc41f9bce0c2b9db5504a3e0d82eb7cede867ebd0acd3ee1832dcd9b8def4647",
+  "size": 13496,
+  "subdir": "win-64",
+  "timestamp": 1572619808213,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/wincertstore-0.2-py37_1003.tar.bz2",
+  "version": "0.2"
+}

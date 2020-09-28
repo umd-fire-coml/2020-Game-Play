@@ -1,0 +1,9 @@
+name: sf2
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.7
+    - pip:
+        - gym-retro
+        - dopamine
