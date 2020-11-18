@@ -1,0 +1,23 @@
+"""T9 - Gameplaying
+Members: Tanmay Prakash, Maxwell, Ryan Butler, Shreyas Srinivasan
+
+This project aims to apply reinforcement learning to teach an "agent" how to play a classic game in "Street Fighter 2".
+We use the Street Fighter 2 Champions Deluxe Edition in this project. 
+
+Reinforcement Learning
+    Reinforcement Learning (RL) describes a field of machine learning wherein a function or model is dynamically "learns" through an action-reward 
+    feedback loop, choosing actions that maximize the reward.
+
+Packages Used
+1. Dopamine Framework
+    Deep Q-networks (DQN) to model our agent/player
+    Retro emulation in which we can play thousands of games.
+    Drawback: Version used is only compatible with Tensorflow 1.15.1 and prior
+    Provides methods to train and test reinforcement learning models
+2. Gym Retro
+    Environment emulator used to visualize and simulate the game between our agent and either us or the CPU.
+3. Matplotlib
+    A fast and universal way to visualize our training data
+4. Gin
+    Gin helps set up configuration files
+    Interacts with Dopamine. Requires very basic parameters to run. """
