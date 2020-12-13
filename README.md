@@ -9,7 +9,7 @@ The Environment and Data Checkers ensure that all the correct packages and corre
 The Model comprises of calls to the Gym_retro.py file and also has code that enables a visual display of your agent training. 
 
 Please refer to this video for more detail on the code and the game:
-<Insert YouTube video>
+https://youtu.be/FdtwKXfOmLA
   
 To get the training started:
   Just run cell by cell from top to bottom in the notebook attached below. 
