@@ -15,5 +15,6 @@ To get the training started:
   Just run cell by cell from top to bottom in the notebook attached below. 
   
   <Insert Citations>
+  '''
   
 
