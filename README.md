@@ -2,22 +2,28 @@
 Authors: Tanmay Prakash, Maxwell Hampel, Ryan Butler and Shreyas Srinivasan
 
 '''
-This repository consists of a model agent for the old time classic game Street Figher 2. 
+This project involves the development of a model agent for the old time classic game Street Figher 2. 
 We use the Champions Deluxe Edition source code via the Dopamine Framework and the Gym Retro emulator to train our agent.
 The basic principle implemented is Reinforcement Learning via pixel-based analysis.
+
 Warning: It is advised to design a state-vector map, but an older game can still have a proper agent using pixel analysis. 
 
-The repository is made of three major parts: The Data Generator, the Environment and Data Checker, and the Model.
-The Data Generator consists of the batch-wise output of the game's metadata at 30 frames per second.
-The Environment and Data Checkers ensure that all the correct packages and correct package versions are in place to generate the model. 
-The Model comprises of calls to the Gym_retro.py file and also has code that enables a visual display of your agent training. 
+The repository is made of four major parts: 
+
+  1. The Data Generator which consists of the batch-wise output of the game's metadata at 30 frames per second.
+  2. The Environment and Data Checkers ensure that all the correct packages and correct package versions are in place to generate the model. 
+  3. The Model comprises of calls to the Gym_retro.py file and also has code that enables a visual display of your agent training. 
+  4. The Game_Playing_Testing.ipynb notebook which contains the code to train and visualize the agent. 
+
+For individual breakdown of the code, refer to each individual branch on this github which have the appropriate titles. 
 
 Please refer to this video for more detail on the code and the game:
 https://youtu.be/FdtwKXfOmLA
   
 To get the training started:
-  Please select the Game_Play_Testing.ipynb file to gain access to the notebook. 
-   Just run cell by cell from top to bottom in the notebook..
+  1. Please open the Game_Playing_Testing.ipynb file to gain access to the notebook. 
+     Link: https://github.com/umd-fire-coml/2020-Game-Play/blob/master/Game_Playing_Testing.ipynb
+  2. Just run cell by cell from top to bottom in the notebook to create and visualize your agent. 
   
 Want to know more about the items used in this project?
   1) https://openai.com/blog/gym-retro/ 
