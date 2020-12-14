@@ -1,6 +1,8 @@
 # 2020-Game-Play
 Authors: Tanmay Prakash, Maxwell Hampel, Ryan Butler and Shreyas Srinivasan
 
+![alt_text](images/download.jpg)
+
 '''
 This project involves the development of a model agent for the old time classic game Street Figher 2. 
 We use the Champions Deluxe Edition source code via the Dopamine Framework and the Gym Retro emulator to train our agent.
