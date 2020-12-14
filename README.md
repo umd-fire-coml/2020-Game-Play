@@ -8,17 +8,20 @@ The basic principle implemented is Reinforcement Learning via pixel-based analys
 
 Warning: It is advised to design a state-vector map, but an older game can still have a proper agent using pixel analysis. 
 
-The repository is made of four major parts: 
-
-  1. The Data Generator which consists of the batch-wise output of the game's metadata at 30 frames per second.
-  2. The Environment and Data Checkers ensure that all the correct packages and correct package versions are in place to generate the model. 
-  3. The Model comprises of calls to the Gym_retro.py file and also has code that enables a visual display of your agent training. 
-  4. The Game_Playing_Testing.ipynb notebook which contains the code to train and visualize the agent. 
-
-For individual breakdown of the code, refer to each individual branch on this github which have the appropriate titles. 
-
-Please refer to this video for more detail on the code and the game:
+Please refer to this video for details and a walkthrough on the project content:
 https://youtu.be/FdtwKXfOmLA
+
+Code:
+  The repository is made of four major parts: 
+
+    1. The Data Generator which consists of the batch-wise output of the game's metadata at 30 frames per second.
+    2. The Environment and Data Checkers ensure that all the correct packages and correct package versions are in place to generate the model. 
+    3. The Model comprises of calls to the Gym_retro.py file and also has code that enables a visual display of your agent training. 
+    4. The Game_Playing_Testing.ipynb notebook which contains the code to train and visualize the agent. 
+
+
+For individual breakdown of the above code, refer to each individual branch on this github which have the appropriate titles. 
+
   
 To get the training started:
   1. Please open the Game_Playing_Testing.ipynb file to gain access to the notebook. 
