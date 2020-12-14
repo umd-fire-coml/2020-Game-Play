@@ -1,6 +1,8 @@
 # 2020-Game-Play
 Authors: Tanmay Prakash, Maxwell Hampel, Ryan Butler and Shreyas Srinivasan
-'''This repository consists of a model agent for the old time classic game Street Figher 2. 
+
+'''
+This repository consists of a model agent for the old time classic game Street Figher 2. 
 We use the Champions Deluxe Edition source code via the Dopamine Framework and the Gym Retro emulator to train our agent.
 The basic principle implemented is Reinforcement Learning via pixel-based analysis.
 Warning: It is advised to design a state-vector map, but an older game can still have a proper agent using pixel analysis. 
