@@ -1,0 +1,5 @@
+model_checkpoint_path: "/content/dqn/checkpoints/tf_ckpt-10"
+all_model_checkpoint_paths: "/content/dqn/checkpoints/tf_ckpt-7"
+all_model_checkpoint_paths: "/content/dqn/checkpoints/tf_ckpt-8"
+all_model_checkpoint_paths: "/content/dqn/checkpoints/tf_ckpt-9"
+all_model_checkpoint_paths: "/content/dqn/checkpoints/tf_ckpt-10"
